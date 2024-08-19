@@ -62,5 +62,9 @@ https://github.com/user-attachments/assets/1411d3c8-15d5-46fc-904b-08b99dd06f62
 
 | [<img src="https://github.com/Drizzle03.png" width="100px">](https://github.com/Drizzle03) | [<img src="https://github.com/seulnan.png" width="100px">](https://github.com/seulnan) | [<img src="https://github.com/junekyu02.png" width="100px">](https://github.com/junekyu02) | [<img src="https://github.com/jakepro657.png" width="100px">](https://github.com/jakepro657) |
 | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
-| [Yuna Pyeon](https://github.com/Drizzle03) | [Nansel Kim](https://github.com/seulnan) | [Junkyoo Baek](https://github.com/junekyu02) | [Youbin Kim](https://github.com/jakepro657) |
+| [Yuna Pyeon](https://github.com/Drizzle03) | [nanseul Kim](https://github.com/seulnan) | [junekyu Baek](https://github.com/junekyu02) | [Yubin Kim](https://github.com/jakepro657) |
 | PM <br> Design | Frontend | Backend | AI |
+
+
+
+Yuna Pyeon	nanseul Kim	junekyu Baek	Yubin Kim
