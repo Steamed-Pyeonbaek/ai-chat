@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# green up
+### 탄소 인벤토리 기반 탄소 배출 감축 컨설팅 AI 서비스 
 
-## Getting Started
+![greenup 로고](https://github.com/user-attachments/assets/988463c0-0289-4333-9dcc-6ed9893138e5)
 
-First, run the development server:
+최근 탄소 배출 저감과 환경 보호에 대한 관심이 높아지면서, 기업과 개인 모두에게 정확한 탄소 배출량 관리와 효율적인 저감 전략이 요구되고 있습니다. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+green up은 급격하게 증가하는 탄소 중립과 ESG(환경, 사회, 지배구조) 경영에 대한 요구를 반영하여, 중소기업(SME)들이 탄소 배출량을 체계적으로 관리하고 효과적인 감축 계획을 수립할 수 있도록 지원합니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+사용자가 제공하는 탄소 배출량 데이터를 바탕으로, 탄소 인벤토리를 작성하고 그에 따른 감축 방안을 제안하는 **대시보드와 Solar LLM을 통한 AI 컨설팅 기능**을 제공합니다. green up를 통해 ESG의 복잡한 과제들을 직면한 중소기업에게 도움을 제공할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# 목차
+1. [현재 개발 상황](#현재-개발-상황)
+    1. [Chat 페이지](#Chat-페이지)
+2. [추후 개발 방향](#추후-개발-방향)
+3. [green up 사용법](#green-up-사용법)
+    1. [green up 설치](#green-up-설치)
+    2. [green up 실행](#green-up-실행)
+4. [시연영상](#시연영상)
+5. [팀원 구성 및 역할](#팀원-구성-및-역할)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 현재 개발 상황
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+현재 **AI Chat 페이지**와 **대시보드 페이지**는 각각 구현 완료되었습니다. 각 페이지에 대한 필수 기능은 구현을 완료한 상태입니다.
+추후 개발로 **대시보드 페이지**의 세부 기능을 추가하고, **AI Chat 페이지**와의 원활한 연동을 위해 리팩토링 작업을 진행할 계획입니다.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+#### 1. Chat 페이지
+사용자가 처음 챗 페이지에 접속하면, 서비스 사용 방법에 대한 간단한 안내가 제공됩니다. 이 안내는 사용자가 AI 챗과 어떻게 상호작용할지, 그리고 어떤 정보가 필요한지를 설명합니다. 설명과 함께 엑셀파일 양식을 제공합니다. 엑셀파일을 다운받은 후 자신의 탄소 배출 데이터를 입력할 수 있습니다. 이 양식은 탄소 배출 인벤토리를 체계적으로 관리하기 위한 기본 틀을 제공합니다. 사용자가 완성된 **엑셀양식을 챗 페이지에 업로드하면, AI는 이를 자동으로 인식하고 분석을 시작합니다. 업로드된 데이터는 AI가 탄소 배출량을 평가하고, Scope 1, 2, 3 등 다양한 범위에서의 배출량을 구체적으로 분석하는 데 사용됩니다.
+이후 **대시보드 페이지로 이동하여 업로드된 데이터를 바탕으로 AI가 생성한 분석 결과를 시각적으로 확인할 수 있습니다.
+
+
+
+## 추후 개발 방향
+
+
+
+
+
+
+## green up 사용법
+1. green up 설치    
+
+   ```
+   git clone https://github.com/your-repo/greenup.git  
+   cd greenup  
+   ```
+
+3. green up 실행
+   
+    ```
+   npm install
+   npm run dev
+
+    ```
+  서버가 실행되면, 브라우저에서 http://localhost:3000을 열어 greenUp 웹 페이지에 접속할 수 있습니다.
+
+
+
+
+## 시연영상
+
+
+
+
+
+https://github.com/user-attachments/assets/1411d3c8-15d5-46fc-904b-08b99dd06f62
+
+
+
+
+
+
+
+
+
+
+## 팀원 구성 및 역할
+
+| [<img src="https://github.com/Drizzle03.png" width="100px">](https://github.com/Drizzle03) | [<img src="https://github.com/seulnan.png" width="100px">](https://github.com/seulnan) | [<img src="https://github.com/junekyu02.png" width="100px">](https://github.com/junekyu02) | [<img src="https://github.com/jakepro657.png" width="100px">](https://github.com/jakepro657) |
+| :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
+| [편유나](https://github.com/Drizzle03) | [김난슬](https://github.com/seulnan) | [백준규](https://github.com/junekyu02) | [김유빈](https://github.com/jakepro657) |
+| PM <br> Design | Frontend | Backend | AI |
+
+
