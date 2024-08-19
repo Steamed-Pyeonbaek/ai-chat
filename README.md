@@ -38,18 +38,18 @@ In the chat window, users can ask questions related to carbon emission reduction
 ## How to Use green up
 
 ### 1. Install green up
-'''
+ ```
 git clone https://github.com/your-repo/greenup.git
 cd greenup
-'''
+ ```
 
 
 ### 2. Run green up
 
-'''
+```
 npm install
 npm run dev
-'''
+```
 
 
 Once the server is running, you can open the green up web page in your browser by navigating to http://localhost:3000.
